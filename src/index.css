@@ -1,0 +1,6 @@
+@import "tailwindcss"; 
+
+/* Quando il modal <dialog> è aperto, la pagina sotto non deve scorrere. */
+body:has(dialog[open]) {
+  overflow: hidden;
+}

@@ -1,0 +1,158 @@
+{
+  "items": [
+    {
+      "id": "antipasto-bruschette-miste",
+      "title": "Bruschette miste",
+      "description": "Tre bruschette: pomodoro e basilico, crema di olive, stracciatella e acciughe.",
+      "price": 7.50,
+      "category": "antipasti",
+      "isGlutenFree": false,
+      "isVegetarian": false,
+      "available": true,
+      "allergens": ["glutine", "latte", "pesce"]
+    },
+    {
+      "id": "antipasto-suppli",
+      "title": "Supplì al telefono",
+      "description": "Crocchette di riso con ragù e mozzarella filante, fritte al momento.",
+      "price": 6.00,
+      "category": "antipasti",
+      "isGlutenFree": false,
+      "isVegetarian": false,
+      "available": true,
+      "allergens": ["glutine", "latte", "uova", "sedano"]
+    },
+    {
+      "id": "antipasto-caprese",
+      "title": "Caprese",
+      "description": "Mozzarella di bufala, pomodori maturi, basilico e olio extravergine.",
+      "price": 9.00,
+      "category": "antipasti",
+      "isGlutenFree": true,
+      "isVegetarian": true,
+      "available": true,
+      "allergens": ["latte"]
+    },
+    {
+      "id": "antipasto-frittura-di-verdure",
+      "title": "Frittura di verdure",
+      "description": "Zucchine, melanzane e fiori di zucca in pastella leggera.",
+      "price": 8.00,
+      "category": "antipasti",
+      "isGlutenFree": false,
+      "isVegetarian": true,
+      "available": false,
+      "allergens": ["glutine", "uova"]
+    },
+    {
+      "id": "pizza-margherita",
+      "title": "Margherita",
+      "description": "Pomodoro San Marzano, fior di latte, basilico e olio extravergine.",
+      "price": 7.00,
+      "category": "pizze",
+      "isGlutenFree": false,
+      "isVegetarian": true,
+      "available": true,
+      "allergens": ["glutine", "latte"]
+    },
+    {
+      "id": "pizza-marinara",
+      "title": "Marinara",
+      "description": "Pomodoro, aglio, origano e olio extravergine. Senza formaggio.",
+      "price": 6.00,
+      "category": "pizze",
+      "isGlutenFree": false,
+      "isVegetarian": true,
+      "available": true,
+      "allergens": ["glutine"]
+    },
+    {
+      "id": "pizza-diavola",
+      "title": "Diavola",
+      "description": "Pomodoro, fior di latte e salame piccante calabrese.",
+      "price": 9.00,
+      "category": "pizze",
+      "isGlutenFree": false,
+      "isVegetarian": false,
+      "available": true,
+      "allergens": ["glutine", "latte"]
+    },
+    {
+      "id": "pizza-quattro-formaggi",
+      "title": "Quattro formaggi",
+      "description": "Fior di latte, gorgonzola, taleggio e parmigiano.",
+      "price": 10.00,
+      "category": "pizze",
+      "isGlutenFree": false,
+      "isVegetarian": true,
+      "available": true,
+      "allergens": ["glutine", "latte"]
+    },
+    {
+      "id": "pizza-ortolana",
+      "title": "Ortolana",
+      "description": "Pomodoro, fior di latte, zucchine, melanzane e peperoni grigliati.",
+      "price": 9.50,
+      "category": "pizze",
+      "isGlutenFree": false,
+      "isVegetarian": true,
+      "available": true,
+      "allergens": ["glutine", "latte"]
+    },
+    {
+      "id": "pizza-margherita-senza-glutine",
+      "title": "Margherita senza glutine",
+      "description": "Impasto senza glutine certificato, pomodoro, fior di latte e basilico.",
+      "price": 9.00,
+      "category": "pizze",
+      "isGlutenFree": true,
+      "isVegetarian": true,
+      "available": true,
+      "allergens": ["latte"]
+    },
+    {
+      "id": "bevanda-acqua-naturale",
+      "title": "Acqua naturale 0,75 l",
+      "description": "Bottiglia in vetro.",
+      "price": 2.50,
+      "category": "bevande",
+      "isGlutenFree": true,
+      "isVegetarian": true,
+      "available": true,
+      "allergens": []
+    },
+    {
+      "id": "bevanda-coca-cola",
+      "title": "Coca-Cola 33 cl",
+      "description": "Lattina.",
+      "price": 3.00,
+      "category": "bevande",
+      "isGlutenFree": true,
+      "isVegetarian": true,
+      "available": true,
+      "allergens": []
+    },
+    {
+      "id": "bevanda-birra-artigianale",
+      "title": "Birra artigianale 50 cl",
+      "description": "Bionda non filtrata, alla spina o in bottiglia.",
+      "price": 6.50,
+      "category": "bevande",
+      "isGlutenFree": false,
+      "isVegetarian": true,
+      "available": true,
+      "allergens": ["glutine"]
+    },
+    {
+      "id": "bevanda-vino-della-casa",
+      "title": "Vino della casa (calice)",
+      "description": "Rosso o bianco, selezione del giorno.",
+      "price": 4.00,
+      "category": "bevande",
+      "isGlutenFree": true,
+      "isVegetarian": true,
+      "available": true,
+      "allergens": ["solfiti"]
+    }
+  ]
+}
