@@ -1,0 +1,15 @@
+Nome,Categoria,Prezzo,Descrizione,Disponibile,Vegetariano,Senza glutine,Glutine,Crostacei,Uova,Pesce,Arachidi,Soia,Latte,Frutta a guscio,Sedano,Senape,Sesamo,Solfiti,Lupini,Molluschi
+Bruschette miste,Antipasti,"7,50","Tre bruschette: pomodoro e basilico, crema di olive, stracciatella e acciughe.",TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Supplì al telefono,Antipasti,"6,00","Crocchette di riso con ragù e mozzarella filante, fritte al momento.",TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+Caprese,Antipasti,"9,00","Mozzarella di bufala, pomodori maturi, basilico e olio extravergine.",TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Frittura di verdure,Antipasti,"8,00","Zucchine, melanzane e fiori di zucca in pastella leggera.",FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Margherita,Pizze,"7,00","Pomodoro San Marzano, fior di latte, basilico e olio extravergine.",TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Marinara,Pizze,"6,00","Pomodoro, aglio, origano e olio extravergine. Senza formaggio.",TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Diavola,Pizze,"9,00","Pomodoro, fior di latte e salame piccante calabrese.",TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Quattro formaggi,Pizze,"10,00","Fior di latte, gorgonzola, taleggio e parmigiano.",TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Ortolana,Pizze,"9,50","Pomodoro, fior di latte, zucchine, melanzane e peperoni grigliati.",TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Margherita senza glutine,Pizze,"9,00","Impasto senza glutine certificato, pomodoro, fior di latte e basilico.",TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Acqua naturale 0,75 l",Bevande,"2,50",Bottiglia in vetro.,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Coca-Cola 33 cl,Bevande,"3,00",Lattina.,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Birra artigianale 50 cl,Bevande,"6,50","Bionda non filtrata, alla spina o in bottiglia.",TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Vino della casa (calice),Bevande,"4,00","Rosso o bianco, selezione del giorno.",TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
