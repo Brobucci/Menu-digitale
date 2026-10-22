@@ -19,7 +19,7 @@ export function MenuNotices({ stale, problems }: MenuNoticesProps) {
   return (
     <>
       {stale && (
-        <p role="status" className="mx-4 mt-4 rounded-xl bg-amber-50 p-3 text-sm text-amber-900">
+        <p role="status" className="mx-4 mt-4 rounded-xl bg-warning-soft p-3 text-sm text-warning-strong">
           Non riesco ad aggiornare il menù. Ti mostro l’ultima versione salvata su questo dispositivo:
           alcuni piatti o prezzi potrebbero essere cambiati.
         </p>
@@ -32,11 +32,11 @@ export function MenuNotices({ stale, problems }: MenuNoticesProps) {
         >
           <h2 className="font-semibold text-stone-900">Diagnostica del foglio</h2>
           {problems.length === 0 ? (
-            <p className="mt-2 text-green-800">Nessun problema trovato: tutte le righe sono state lette.</p>
+            <p className="mt-2 text-success-text">Nessun problema trovato: tutte le righe sono state lette.</p>
           ) : (
             <ul className="mt-2 space-y-1.5">
               {problems.map((problem, index) => (
-                <li key={index} className={problem.level === 'error' ? 'text-red-800' : 'text-amber-900'}>
+                <li key={index} className={problem.level === 'error' ? 'text-danger-strong' : 'text-warning-strong'}>
                   <span className="font-semibold">
                     {problem.row === 0 ? 'Generale' : `Riga ${problem.row}`}
                     {problem.level === 'error' ? ' (errore)' : ' (avviso)'}:

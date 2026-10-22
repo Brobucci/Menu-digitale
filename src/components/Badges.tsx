@@ -7,10 +7,10 @@ export function DietBadges({ item }: { item: Pick<MenuItem, 'isVegetarian' | 'is
   return (
     <>
       {item.isVegetarian && (
-        <span className={`${base} bg-green-100 text-green-800`}>Vegetariano</span>
+        <span className={`${base} bg-success-chip text-success-text`}>Vegetariano</span>
       )}
       {item.isGlutenFree && (
-        <span className={`${base} bg-amber-100 text-amber-800`}>Senza glutine</span>
+        <span className={`${base} bg-warning-chip text-warning-text`}>Senza glutine</span>
       )}
     </>
   )

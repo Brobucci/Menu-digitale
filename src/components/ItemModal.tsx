@@ -22,7 +22,7 @@ export function ItemModal({ item, onClose }: ItemModalProps) {
             <h2 id="item-modal-title" className="text-xl font-bold">
               {item.title}
             </h2>
-            <span className="shrink-0 text-lg font-bold text-red-700">
+            <span className="shrink-0 text-lg font-bold text-brand">
               {formatPrice(item.price)}
             </span>
           </div>
@@ -41,7 +41,7 @@ export function ItemModal({ item, onClose }: ItemModalProps) {
                 {item.allergens.map((allergen) => (
                   <li
                     key={allergen}
-                    className="rounded-md bg-red-50 px-2 py-1 text-sm text-red-800"
+                    className="rounded-md bg-brand-soft px-2 py-1 text-sm text-brand-strong"
                   >
                     {ALLERGEN_LABELS[allergen]}
                   </li>

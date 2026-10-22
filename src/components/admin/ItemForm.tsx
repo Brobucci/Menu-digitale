@@ -35,7 +35,7 @@ interface ItemFormProps {
 }
 
 const inputClass =
-  'w-full rounded-lg border border-stone-300 bg-white px-3 py-2 text-stone-900 focus:border-red-700 focus:ring-1 focus:ring-red-700 focus:outline-none aria-invalid:border-red-600'
+  'w-full rounded-lg border border-stone-300 bg-white px-3 py-2 text-stone-900 focus:border-brand focus:ring-1 focus:ring-brand focus:outline-none aria-invalid:border-danger'
 
 export function ItemForm({ item, defaultCategory, onSubmit, onCancel }: ItemFormProps) {
   const isEdit = item !== undefined
@@ -157,7 +157,7 @@ export function ItemForm({ item, defaultCategory, onSubmit, onCancel }: ItemForm
             ['available', 'Disponibile'],
           ] as const).map(([key, label]) => (
             <label key={key} className="flex items-center gap-3 text-stone-800">
-              <input type="checkbox" name={key} className="size-5 accent-red-700"
+              <input type="checkbox" name={key} className="size-5 accent-brand"
                 checked={values[key]} onChange={(e) => update(key, e.target.checked)} />
               {label}
             </label>
@@ -170,20 +170,20 @@ export function ItemForm({ item, defaultCategory, onSubmit, onCancel }: ItemForm
           <div className="grid grid-cols-2 gap-x-3 gap-y-2">
             {ALLERGENS.map((allergen) => (
               <label key={allergen} className="flex items-center gap-2 text-sm text-stone-800">
-                <input type="checkbox" name="allergens" className="size-4 accent-red-700"
+                <input type="checkbox" name="allergens" className="size-4 accent-brand"
                   checked={values.allergens.includes(allergen)} onChange={() => toggleAllergen(allergen)} />
                 {ALLERGEN_LABELS[allergen]}
               </label>
             ))}
           </div>
           {errors.allergens && (
-            <p id="item-allergens-error" className="mt-2 text-sm text-red-700">{errors.allergens}</p>
+            <p id="item-allergens-error" className="mt-2 text-sm text-danger">{errors.allergens}</p>
           )}
         </fieldset>
       </fieldset>
 
       {generalError && (
-        <p role="alert" className="mt-4 rounded-lg bg-red-50 p-3 text-sm text-red-800">{generalError}</p>
+        <p role="alert" className="mt-4 rounded-lg bg-danger-soft p-3 text-sm text-danger-strong">{generalError}</p>
       )}
 
       {/* Barra pulsanti fissa in fondo: su telefono il form è lungo e i pulsanti restano a portata. */}
@@ -193,7 +193,7 @@ export function ItemForm({ item, defaultCategory, onSubmit, onCancel }: ItemForm
           Annulla
         </button>
         <button type="submit" disabled={submitting}
-          className="flex-1 rounded-xl bg-red-700 py-3 font-semibold text-white hover:bg-red-800 disabled:opacity-60">
+          className="flex-1 rounded-xl bg-brand py-3 font-semibold text-white hover:bg-brand-strong disabled:opacity-60">
           {submitting ? 'Salvo…' : 'Salva'}
         </button>
       </div>

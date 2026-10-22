@@ -19,7 +19,7 @@ function FilterToggle({ label, pressed, onClick }: ToggleProps) {
       onClick={onClick}
       className={`rounded-full border px-3 py-1.5 text-sm font-medium transition-colors ${
         pressed
-          ? 'border-red-700 bg-red-50 text-red-800'
+          ? 'border-brand bg-brand-soft text-brand-strong'
           : 'border-stone-300 bg-white text-stone-600 hover:bg-stone-50'
       }`}
     >
@@ -45,3 +45,4 @@ export function FilterBar(props: FilterBarProps) {
     </div>
   )
 }
+

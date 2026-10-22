@@ -25,7 +25,7 @@ export function MenuItemCard({ item, onSelect }: MenuItemCardProps) {
           <h3 className="font-semibold text-stone-900">{item.title}</h3>
           <span
             className={`shrink-0 font-semibold ${
-              item.available ? 'text-red-700' : 'text-stone-500 line-through'
+              item.available ? 'text-brand' : 'text-stone-500 line-through'
             }`}
           >
             {formatPrice(item.price)}

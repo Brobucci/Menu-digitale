@@ -18,7 +18,7 @@ export function FormField({ id, label, error, hint, children }: FormFieldProps) 
       </label>
       <div className="mt-1">{children}</div>
       {error ? (
-        <p id={`${id}-error`} className="mt-1 text-sm text-red-700">
+        <p id={`${id}-error`} className="mt-1 text-sm text-danger">
           {error}
         </p>
       ) : (

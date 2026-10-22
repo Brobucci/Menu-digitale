@@ -1,4 +1,4 @@
-import { MENU_SOURCE } from '../types/config'
+import { MENU_SOURCE } from '../config'
 import type { MenuLoadResult } from '../types/loadResult'
 import { fetchMenu } from './menuApi'
 import { fetchMenuFromSheet } from './sheetSource'

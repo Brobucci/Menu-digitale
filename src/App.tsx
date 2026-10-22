@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router'
-import { MENU_SOURCE } from './types/config'
+import { MENU_SOURCE } from './config'
 import { AdminPage } from './pages/AdminPage'
 import { CustomerPage } from './pages/CustomerPage'
 import { NotFoundPage } from './pages/NotFoundPage'

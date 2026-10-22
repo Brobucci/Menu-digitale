@@ -12,7 +12,7 @@ export function CategoryTabs({ categories, active, onChange }: CategoryTabsProps
     <div
       role="tablist"
       aria-label="Categorie del menù"
-      className="flex gap-2 overflow-x-auto px-4 py-2 [scrollbar-none]"
+      className="flex gap-2 overflow-x-auto px-4 py-2 [scrollbar-width:none]"
     >
       {categories.map((category) => {
         const selected = category === active
@@ -27,7 +27,7 @@ export function CategoryTabs({ categories, active, onChange }: CategoryTabsProps
             onClick={() => onChange(category)}
             className={`shrink-0 rounded-full px-4 py-2 text-sm font-semibold transition-colors ${
               selected
-                ? 'bg-red-700 text-white'
+                ? 'bg-brand text-white'
                 : 'bg-stone-100 text-stone-700 hover:bg-stone-200'
             }`}
           >

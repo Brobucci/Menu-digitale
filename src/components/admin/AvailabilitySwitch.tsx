@@ -17,7 +17,7 @@ export function AvailabilitySwitch({ checked, disabled = false, label, onChange 
       disabled={disabled}
       onClick={onChange}
       className={`relative inline-flex h-7 w-12 shrink-0 items-center rounded-full transition-colors disabled:opacity-60 ${
-        checked ? 'bg-green-600' : 'bg-stone-300'
+        checked ? 'bg-success' : 'bg-stone-300'
       }`}
     >
       <span

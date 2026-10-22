@@ -162,7 +162,7 @@ export function AdminPage() {
         {actionError && (
           <div
             role="alert"
-            className="m-4 flex items-start justify-between gap-3 rounded-xl border border-red-200 bg-red-50 p-4 text-sm text-red-900"
+            className="m-4 flex items-start justify-between gap-3 rounded-xl border border-danger-line bg-danger-soft p-4 text-sm text-danger-deep"
           >
             <p>{actionError}</p>
             <button
@@ -188,7 +188,7 @@ export function AdminPage() {
             <button
               type="button"
               onClick={() => setFormTarget({ mode: 'create' })}
-              className="mb-4 w-full rounded-xl bg-red-700 py-3 font-semibold text-white hover:bg-red-800"
+              className="mb-4 w-full rounded-xl bg-brand py-3 font-semibold text-white hover:bg-brand-strong"
             >
               + Aggiungi piatto
             </button>

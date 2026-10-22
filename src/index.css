@@ -1,5 +1,38 @@
 @import "tailwindcss"; 
 
+@theme {
+  /* ── Colore del marchio ─────────────────────────────────────────────── */
+  --color-brand: #b91c1c;        /* testata, schede attive, prezzi, pulsanti principali */
+  --color-brand-strong: #991b1b; /* pulsanti al passaggio del mouse; testo sui riquadri chiari */
+  --color-brand-soft: #fef2f2;   /* sfondo di filtri attivi e di etichette */
+  --color-brand-ring: #fecaca;   /* alone attorno ai campi selezionati */
+
+  /* ── Errori e azioni distruttive (restano rossi anche se il marchio cambia) ── */
+  --color-danger: #b91c1c;
+  --color-danger-strong: #991b1b;
+  --color-danger-deep: #7f1d1d;
+  --color-danger-soft: #fef2f2;
+  --color-danger-line: #fecaca;
+
+  /* ── Avvisi e «Senza glutine» ───────────────────────────────────────── */
+  --color-warning-soft: #fffbeb;
+  --color-warning-chip: #fef3c7;
+  --color-warning-text: #92400e;
+  --color-warning-strong: #78350f;
+
+  /* ── Conferme e «Vegetariano» ───────────────────────────────────────── */
+  --color-success: #16a34a;
+  --color-success-chip: #dcfce7;
+  --color-success-text: #166534;
+}
+
+/* Quando il modal <dialog> è aperto, la pagina sotto non deve scorrere. */
+body:has(dialog[open]) {
+  overflow: hidden;
+}
+
+
+
 /* Quando il modal <dialog> è aperto, la pagina sotto non deve scorrere. */
 body:has(dialog[open]) {
   overflow: hidden;

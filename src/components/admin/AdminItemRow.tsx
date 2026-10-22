@@ -54,7 +54,7 @@ export function AdminItemRow({ item, pending, onToggleAvailability, onEdit, onDe
             type="button"
             onClick={() => onDelete(item)}
             aria-label={`Elimina ${item.title}`}
-            className="rounded-lg px-3 py-1.5 text-sm font-medium text-red-700 hover:bg-red-50"
+            className="rounded-lg px-3 py-1.5 text-sm font-medium text-danger hover:bg-danger-soft"
           >
             Elimina
           </button>
@@ -63,5 +63,6 @@ export function AdminItemRow({ item, pending, onToggleAvailability, onEdit, onDe
     </li>
   )
 }
+
 
 

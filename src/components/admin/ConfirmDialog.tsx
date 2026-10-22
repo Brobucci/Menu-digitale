@@ -33,7 +33,7 @@ export function ConfirmDialog({
         <p className="mt-2 text-stone-700">{message}</p>
 
         {error && (
-          <p role="alert" className="mt-3 rounded-lg bg-red-50 p-3 text-sm text-red-800">
+          <p role="alert" className="mt-3 rounded-lg bg-danger-soft p-3 text-sm text-danger-strong">
             {error}
           </p>
         )}
@@ -51,7 +51,7 @@ export function ConfirmDialog({
             type="button"
             onClick={onConfirm}
             disabled={busy}
-            className="flex-1 rounded-xl bg-red-700 py-3 font-semibold text-white hover:bg-red-800 disabled:opacity-60"
+            className="flex-1 rounded-xl bg-brand py-3 font-semibold text-white hover:bg-brand-strong disabled:opacity-60"
           >
             {busy ? 'Elimino…' : confirmLabel}
           </button>

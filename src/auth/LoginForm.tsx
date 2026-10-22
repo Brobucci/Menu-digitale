@@ -42,7 +42,7 @@ export function LoginForm() {
         <h1 className="text-xl font-bold text-stone-900">Accesso gestione menù</h1>
 
         {sessionExpired && !error && (
-          <p role="status" className="mt-3 rounded-lg bg-amber-50 p-3 text-sm text-amber-900">
+          <p role="status" className="mt-3 rounded-lg bg-warning-soft p-3 text-sm text-warning-strong">
             La sessione è scaduta. Accedi di nuovo.
           </p>
         )}
@@ -60,10 +60,10 @@ export function LoginForm() {
           onChange={(e) => setPassword(e.target.value)}
           aria-invalid={error ? true : undefined}
           aria-describedby={error ? 'admin-password-error' : undefined}
-          className="mt-1 w-full rounded-xl border border-stone-300 px-3 py-3 text-base focus:border-red-700 focus:outline-none focus:ring-2 focus:ring-red-200"
+          className="mt-1 w-full rounded-xl border border-stone-300 px-3 py-3 text-base focus:border-brand focus:outline-none focus:ring-2 focus:ring-brand-ring"
         />
         {error && (
-          <p id="admin-password-error" role="alert" className="mt-2 text-sm text-red-700">
+          <p id="admin-password-error" role="alert" className="mt-2 text-sm text-danger">
             {error}
           </p>
         )}
@@ -71,7 +71,7 @@ export function LoginForm() {
         <button
           type="submit"
           disabled={submitting}
-          className="mt-5 w-full rounded-xl bg-red-700 py-3 font-semibold text-white hover:bg-red-800 disabled:opacity-60"
+          className="mt-5 w-full rounded-xl bg-brand py-3 font-semibold text-white hover:bg-brand-strong disabled:opacity-60"
         >
           {submitting ? 'Accesso…' : 'Accedi'}
         </button>
